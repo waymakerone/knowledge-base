@@ -4,18 +4,53 @@
   "description": "Build a searchable knowledge base with articles, categories, and contributor management — powered by Commander Documents, Tables, and Search. Replaces Guru, Confluence, and Notion wikis.",
   "category": "tool",
   "framework": "react",
-  "tags": ["react", "typescript", "knowledge-base", "wiki", "articles", "documentation", "search", "help-center"],
+  "tags": [
+    "react",
+    "typescript",
+    "knowledge-base",
+    "wiki",
+    "articles",
+    "documentation",
+    "search",
+    "help-center"
+  ],
   "is_featured": true,
   "difficulty": "beginner",
   "estimated_time": "2-3 hours",
-  "commander_tools": ["Documents", "Search", "Tables", "Contacts", "Automations"],
+  "commander_tools": [
+    "Documents",
+    "Search",
+    "Tables",
+    "Contacts",
+    "Automations"
+  ],
   "app_type": "cx",
   "sections": [
-    { "id": "article-editor", "name": "Article Editor", "purpose": "Rich text editor for writing/editing articles with markdown support, auto-save, and category assignment" },
-    { "id": "public-reader", "name": "Public Reader", "purpose": "Clean public-facing reader view with category navigation, breadcrumbs, and 'Was this helpful?' voting" },
-    { "id": "category-manager", "name": "Category Manager", "purpose": "Manage categories with icons, colours, nesting, and sort order" },
-    { "id": "search", "name": "Search", "purpose": "Full-text search across all published articles with filters and highlighting" },
-    { "id": "dashboard", "name": "Dashboard", "purpose": "Overview: total articles, views, helpful ratings, top articles, recent drafts" }
+    {
+      "id": "article-editor",
+      "name": "Article Editor",
+      "purpose": "Rich text editor for writing/editing articles with markdown support, auto-save, and category assignment"
+    },
+    {
+      "id": "public-reader",
+      "name": "Public Reader",
+      "purpose": "Clean public-facing reader view with category navigation, breadcrumbs, and 'Was this helpful?' voting"
+    },
+    {
+      "id": "category-manager",
+      "name": "Category Manager",
+      "purpose": "Manage categories with icons, colours, nesting, and sort order"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "purpose": "Full-text search across all published articles with filters and highlighting"
+    },
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "purpose": "Overview: total articles, views, helpful ratings, top articles, recent drafts"
+    }
   ],
   "design": {
     "colorPalette": "Clean — purple (#7C3AED) primary, white background, green for published, amber for draft",
@@ -26,5 +61,13 @@
   "starter_prompt": "I want to build a knowledge base using the WaymakerOS Knowledge Base blueprint. Use host_blueprint_get with blueprint_id \"knowledge-base\" to get the full blueprint, then guide me through building it.",
   "seo_title": "Knowledge Base App Template — Build with AI | WaymakerOS",
   "seo_description": "Build a custom knowledge base with rich text articles, categories, search, and helpful ratings. Replaces Guru and Confluence — built on your data, in your workspace.",
-  "seo_keywords": ["knowledge base template", "help center app builder", "wiki app template AI"]
+  "seo_keywords": [
+    "knowledge base template",
+    "help center app builder",
+    "wiki app template AI"
+  ],
+  "topics": [
+    "customer-success",
+    "operations"
+  ]
 }
